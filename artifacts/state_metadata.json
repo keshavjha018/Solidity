@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "activate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkstate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentstate",
+				"outputs": [
+					{
+						"internalType": "enum state.states",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deactivate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"States.sol": "state"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"States.sol": {
+			"keccak256": "0xbc83f19ca1082372375e0b302e5e4184fe7fa38e1b6d7fd3667952c7e6fb9354",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5612cb8d231ca5b6042c9ca15917ae9dc2b2dc812ffb555a43fbfdbf775b4590",
+				"dweb:/ipfs/QmUcSfWuvhYDcTzPnngmKjFTZ8pBRaNhMX3YgTxDnEawAF"
+			]
+		}
+	},
+	"version": 1
+}
